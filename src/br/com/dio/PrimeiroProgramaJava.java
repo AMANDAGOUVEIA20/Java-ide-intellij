@@ -21,7 +21,7 @@ class Livro{
 
     public Livro(String nome, int numpag) {
         this.nome = nome;
-        this.numpag = String.valueOf(numpag);
+        this.numpag = numpag;
     }
 
     public String getNome() {
